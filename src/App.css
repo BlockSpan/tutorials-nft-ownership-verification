@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inputContainer input {
+  padding: 10px;
+  font-size: 1em;
+  width: 200px;
+}
+
+.inputContainer button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.inputContainer button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  text-align: center;
+}
+
+.errorMessage {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.successMessage {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
